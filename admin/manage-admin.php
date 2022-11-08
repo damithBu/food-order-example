@@ -5,12 +5,17 @@
             <div class ="main-content">
              <div class = "wrapper"> 
                <h2> Manage Admin</h2>
+                  <br> 
+
+               <!---Button to add admin ---->
+               <a href = "Add-admin.php" class="btn-primary"> Add Admin </a>
+                   <br/> <br/>
 
                <table class = "tbl-full">
                     <tr>
 
                      <th> S.N.</th> 
-                     <th> full Name </th>
+                     <th> Full Name </th>
                      <th> Username</th>
                      <th> Actions</th>   
 
