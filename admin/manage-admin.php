@@ -1,23 +1,4 @@
-<html>
-    <head>
-       <title> Food Order Website - Home Page </title>
-       <link rel = "stylesheet" href ="../css/admin.css ">
-     </head>
-      
-     <body>
-       <!---- Menu Section Starts --->
-           <div class ="menu text-center">
-              <div class = "wrapper"> 
-                  <ul>
-                    <li> <a href="#">Home</a></li>
-                    <li> <a href="#">Admin Manager</a></li>
-                    <li> <a href="#">Category</a></li>
-                    <li> <a href="#">Food</a></li>
-                    <li> <a href="#">Order</a></li>
-                  </ul>
-              </div>
-            </div>
-       <!---- Menu Section End --->
+<?php include ('partials/menu.php'); ?>
 
 
        <!---- Main Content Section Starts --->
@@ -25,19 +6,51 @@
              <div class = "wrapper"> 
                <h2> Manage Admin</h2>
 
+               <table class = "tbl-full">
+                    <tr>
+
+                     <th> S.N.</th> 
+                     <th> full Name </th>
+                     <th> Username</th>
+                     <th> Actions</th>   
+
+                     </tr>
+
+                     <tr>
+                        <td> 1.</td>
+                        <td> Damith Buddika</td>
+                        <td> Damith11</td>
+                        <td> 
+                           <a href ="#" class ="btn-secondary">Update Admin<a/>
+                           <a href ="#" class ="btn-danger">Delete Admin</a> 
+                        </td>
+                     </tr>
+
+                     <tr>
+                        <td> 2.</td>
+                        <td> Chamod Buddishana</td>
+                        <td> Chamod20</td>
+                        <td> 
+                          <a href ="#" class ="btn-secondary">Update Admin<a/>
+                          <a href ="#" class ="btn-danger">Delete Admin</a>  
+                        </td>
+                     </tr>
+
+                     <tr>
+                        <td> 3.</td>
+                        <td> Kalpani Herath</td>
+                        <td> kalpani05</td>
+                        <td> 
+                          <a href ="#" class ="btn-secondary">Update Admin<a/>
+                          <a href ="#" class ="btn-danger">Delete Admin</a>  
+                        </td>
+                     </tr>
+
+                 </table>
+
              </div>
               
               </div>
        <!---- Main Content Section End --->
 
-
-       <!---- Footer Section Starts --->
-           <div class ="footer">
-                <div class = "wrapper"> 
-                    <p class ="text-center"> Developed by - 2020 HNDIT Student ... 2022 © All rights reserved. </p>
-                 </div>
-            </div>
-       <!---- Footer Content Section End --->
-
-     </body>
-</html>
+<?php include ('partials/footer.php'); ?>
