@@ -40,18 +40,60 @@ table tr th {
 table tr td {
     padding: 1%;
 }
-.btn-pirmary {
-    background-color: #1e90ff;
+.btn-primary {
+    background-color: #1872cc;
     padding: 1%;
     color: white ;
     text-decoration: none;
     font-weight: bold;
 }
-.btn-pirmary:hover{
+.btn-primary:hover{
     background-color: #3742fa;
 }
 
+/* update */
 
+.btn-secondary {
+    background-color: #7bed9f;
+    padding: 1%;
+    color: black ;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover{
+   background-color: #2ed573;
+}
+
+/*delet */
+
+.btn-danger {
+    background-color: #ff6b81;
+    padding: 1%;
+    color: white ;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover{
+   background-color: #ff4757;
+}
+
+/* add admin */
+
+.tbl-30{
+    width: 30%;
+}
+.btn-AddAdmin{
+    background-color:#54a0ff;
+    padding: 1%;
+    color: white ;
+    text-decoration: none;
+    font-weight: bold; 
+}
+.btn-AddAdmin:hover{
+    background-color: #5f27cd;
+}
 
 
 
