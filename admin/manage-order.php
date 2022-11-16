@@ -9,7 +9,7 @@
         
         
         <!---Button to add admin ---->
-          <a href = "Add-admin.php" class="btn-primary"> Add Ordery </a>
+          <a href = "Add-admin.php" class="btn-primary"> Add Order </a>
                 <br/> <br/>
 
             <table class = "tbl-full">
@@ -27,8 +27,8 @@
                      <td> Damith Buddika</td>
                      <td> Damith11</td>
                      <td> 
-                        <a href ="#" class ="btn-secondary">Update Category<a/>
-                        <a href ="#" class ="btn-danger">Delete Category</a> 
+                        <a href ="#" class ="btn-secondary">Update Order<a/>
+                        <a href ="#" class ="btn-danger">Delete Order</a> 
                      </td>
                   </tr>
 
@@ -37,8 +37,8 @@
                      <td> Chamod Buddishana</td>
                      <td> Chamod20</td>
                      <td> 
-                       <a href ="#" class ="btn-secondary">Update Admin<a/>
-                       <a href ="#" class ="btn-danger">Delete Admin</a>  
+                       <a href ="#" class ="btn-secondary">Update Order<a/>
+                       <a href ="#" class ="btn-danger">Delete Order</a>  
                      </td>
                   </tr>
 
@@ -47,8 +47,8 @@
                      <td> Kalpani Herath</td>
                      <td> kalpani05</td>
                      <td> 
-                       <a href ="#" class ="btn-secondary">Update Admin<a/>
-                       <a href ="#" class ="btn-danger">Delete Admin</a>  
+                       <a href ="#" class ="btn-secondary">Update Order<a/>
+                       <a href ="#" class ="btn-danger">Delete Order</a>  
                      </td>
                   </tr>
 

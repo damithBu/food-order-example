@@ -24,8 +24,8 @@
                         <td> Damith Buddika</td>
                         <td> Damith11</td>
                         <td> 
-                           <a href ="#" class ="btn-secondary">Update Admin<a/>
-                           <a href ="#" class ="btn-danger">Delete Admin</a> 
+                           <a href ="#" class ="btn-secondary">Update Food<a/>
+                           <a href ="#" class ="btn-danger">Delete Food</a> 
                         </td>
                      </tr>
 
@@ -34,8 +34,8 @@
                         <td> Chamod Buddishana</td>
                         <td> Chamod20</td>
                         <td> 
-                          <a href ="#" class ="btn-secondary">Update Admin<a/>
-                          <a href ="#" class ="btn-danger">Delete Admin</a>  
+                          <a href ="#" class ="btn-secondary">Update Food<a/>
+                          <a href ="#" class ="btn-danger">Delete Food</a>  
                         </td>
                      </tr>
 
@@ -44,8 +44,8 @@
                         <td> Kalpani Herath</td>
                         <td> kalpani05</td>
                         <td> 
-                          <a href ="#" class ="btn-secondary">Update Admin<a/>
-                          <a href ="#" class ="btn-danger">Delete Admin</a>  
+                          <a href ="#" class ="btn-secondary">Update Food<a/>
+                          <a href ="#" class ="btn-danger">Delete Food</a>  
                         </td>
                      </tr>
 

@@ -1,10 +1,19 @@
 <?php include('partials/menu.php'); ?>
 
-
 <div class =  "main-content">
     <div class ="wrapper">
        <h1> Add Admin </h1>
        <br> <br>
+      
+                 <?php 
+                      if (isset($_SESSION['add'])) //Checking Whether the Session is set of not
+                      {
+                        echo $_SESSION['add'];//display session message
+                        unset($_SESSION['add']);//Removing Session Message
+                      }
+                   ?>
+
+
        <form action ="" method = "POST">
            <table class = "tbl-30">
                 <tr>
@@ -54,7 +63,7 @@
                $sql = "INSERT INTO tbl_admin SET
                           full_name ='$full_name',
                           username = '$username',
-                         password = '$password'
+                          password = '$password'
                        ";
            
              //3. Executing query and saving data into Database
@@ -67,13 +76,23 @@
                if ($res == TRUE)
                {
                     //Data Inserted 
-                    echo "Data Inserted";
+                  // echo "Data Inserted";
+
+                  // Create a Session Variable to Display Message
+                  $_SESSION['add'] = "Admin Added Successfully";
+                  // Redirect page TO Manage Admin
+                  header('location:'.SITEURL.'admin/manage-admin.php');
                }
 
                else
                {
                     //Failed to Inserted Data
-                    echo "Faile to Inserted Data";
+                 //   echo "Faile to Inserted Data";
+
+                 // Create a Session Variable to Display Message
+                 $_SESSION['add'] = "Fail to Admin Added ";
+                 // Redirect page TO Add Admin
+                 header('location:'.SITEURL.'admin/manage-admin.php');
                }
 
 
